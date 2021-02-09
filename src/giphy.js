@@ -9,7 +9,7 @@ export default class GiphySearch {
         } else {
           reject(request.response);
         }
-      }
+      };
       request.open("GET", url, true);
       request.send();
     });
