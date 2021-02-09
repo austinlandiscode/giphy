@@ -16,7 +16,7 @@ $(document).ready(function() {
       let imgLink1 = `${response.data[1].images.downsized.url}`;
       let imgLink2 = `${response.data[2].images.downsized.url}`;
       let trending1 = `${response.data[0].images.downsized.url}`;
-      // console.log(imgLink);
+      
       $('#showGiphs').html("<img src=\"" + imgLink + "\">");
       $('#showGiphs1').html("<img src=\"" + imgLink1 + "\">");
       $('#showGiphs2').html("<img src=\"" + imgLink2 + "\">");
